@@ -7,3 +7,22 @@ DB_PORT=31310
 DB_DATABASE=realestate
 DB_USERNAME=root
 DB_PASSWORD=lMWveAA64gU1COQiyCbnridS
+
+
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+
+Milads-MacBook-Pro:realestate safeAllah$ php artisan breeze:install
+
+ ┌ Which Breeze stack would you like to install? ───────────────┐
+ │ Blade with Alpine                                            │
+ └──────────────────────────────────────────────────────────────┘
+
+ ┌ Would you like dark mode support? ───────────────────────────┐
+ │ No                                                           │
+ └──────────────────────────────────────────────────────────────┘
+
+ ┌ Which testing framework do you prefer? ──────────────────────┐
+ │ PHPUnit                                                      │
+ └─────────────
