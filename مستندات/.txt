@@ -1,0 +1,9 @@
+composer create-project laravel/laravel realestate
+
+
+DB_CONNECTION=mysql
+DB_HOST=k2.liara.cloud
+DB_PORT=31310
+DB_DATABASE=realestate
+DB_USERNAME=root
+DB_PASSWORD=lMWveAA64gU1COQiyCbnridS
