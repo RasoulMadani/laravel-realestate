@@ -30,3 +30,6 @@ Milads-MacBook-Pro:realestate safeAllah$ php artisan breeze:install
  php artisan migrate
 
  php artisan make:seeder UsersTableSeeder
+
+
+ php artisan migrate:fresh --seed
