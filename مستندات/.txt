@@ -26,3 +26,5 @@ Milads-MacBook-Pro:realestate safeAllah$ php artisan breeze:install
  ┌ Which testing framework do you prefer? ──────────────────────┐
  │ PHPUnit                                                      │
  └─────────────
+
+ php artisan migrate
