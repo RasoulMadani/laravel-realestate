@@ -33,3 +33,13 @@ Milads-MacBook-Pro:realestate safeAllah$ php artisan breeze:install
 
 
  php artisan migrate:fresh --seed
+ 
+ حل مشکل نخواندن فایل های بریز در سرور
+ For production: make sure that you check your .gitignore file as /public/build is excluded while it needs the build directory:
+
+Copy
+/public/build 
+to exclude you can do this
+
+Copy
+!/public/build
